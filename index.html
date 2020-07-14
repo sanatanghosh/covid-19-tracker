@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Covid-19 Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  
+
+  </head>
+  <body>
+    <div class="container">
+      <h1>Covid-19 Live Tracker</h1>
+    
+
+    <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Total Cases</th>
+            <th scope="col">Total Recover</th>
+            <th scope="col">Total Deaths</th>
+          </tr>
+        </thead>
+        <tbody>
+         <tr id="data">
+
+         </tr>
+        </tbody>
+      </table>
+
+
+      <button onclick="refreshData()" class="btn btn-danger btn-block">Refresh Data</button>
+    </div>
+
+
+    <footer>
+      Sanatan Ghosh
+      <a
+        href="https://github.com/sanatanghosh"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="follow me on github"
+      >
+        <img src="images/githublogo.svg" alt="github logo"
+      /></a>
+      <a
+        href="https://www.linkedin.com/in/sanatan-ghosh-88159b199/  "
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="follow me on linkedin"
+        ><img src="images/linkendin-logo.svg" alt="linkedin logo"
+      /></a>
+    </footer>
+
+
+
+
+    <script src="app.js"></script>
+  </body>
+</html>
